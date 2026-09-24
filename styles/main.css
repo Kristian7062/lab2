@@ -8,6 +8,16 @@ Body {
     margin: auto;
 }
 
+Main .wrapper{
+    display: flex;
+    width: 900px;
+}
+
+#collumn1{
+    width: 60rem;
+    padding-right: 2rem;
+}
+
 h1{
     color: #4383b1;
     font-style: italic;
@@ -15,7 +25,7 @@ h1{
 }
 
 Body h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #WhatWeOffer a{
@@ -28,6 +38,9 @@ Body h2 {
 #additionalResources{
     font-weight: 600;
     margin: 0 0 2rem 0;
+}
+#additionalResources h2{
+    Color: #a11206;
 }
 
 #additionalResources li{
