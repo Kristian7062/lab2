@@ -1,0 +1,64 @@
+Body {
+    font-family: sans-serif;
+    margin: 0;
+}
+.wrapper{
+    margin: 0;
+    width: 900px;
+    margin: auto;
+}
+
+h1{
+    color: #4383b1;
+    font-style: italic;
+    text-shadow: 3px 2px 4px #4383b1;
+}
+
+Body h2 {
+    font-size: 1.5rem;
+}
+
+#WhatWeOffer a{
+    color: #a11206;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-bottom: 10rem;
+}
+
+#additionalResources{
+    font-weight: 600;
+    margin: 0 0 2rem 0;
+}
+
+#additionalResources li{
+    margin: 0.7rem 0;
+}
+#additionalResources li a{
+    color: #4383b1;
+}
+
+header .wrapper{
+    display: flex;
+    padding-top: 1rem;
+}
+
+header{
+    margin: 0;
+    background: linear-gradient(0deg, #a8cbf1, #ffffff);
+}
+
+header img{
+    padding-right: 2rem;
+}
+
+footer .wrapper{
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 0.8rem;
+    color: white;
+}
+
+footer {
+    padding: 0.5rem 0;
+    background: #4682b4;
+}
