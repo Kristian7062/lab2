@@ -1,20 +1,23 @@
+:root{
+    --resolution: 900px;
+}
+
 Body {
     font-family: sans-serif;
     margin: 0;
 }
 .wrapper{
-    margin: 0;
-    width: 900px;
-    margin: auto;
+    width: var(--resolution);
+    margin: 0 auto;
 }
 
 Main .wrapper{
     display: flex;
-    width: 900px;
+    width: var(--resolution);
 }
 
-#collumn1{
-    width: 60rem;
+#column1{
+    width: 120%;
     padding-right: 2rem;
 }
 
@@ -25,14 +28,13 @@ h1{
 }
 
 Body h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 #WhatWeOffer a{
     color: #a11206;
     font-weight: 700;
     font-size: 1.3rem;
-    padding-bottom: 10rem;
 }
 
 #additionalResources{
@@ -52,16 +54,19 @@ Body h2 {
 
 header .wrapper{
     display: flex;
-    padding-top: 1rem;
 }
 
 header{
     margin: 0;
-    background: linear-gradient(0deg, #a8cbf1, #ffffff);
+    background: linear-gradient(0deg, #adc4eb, #ffffff);
 }
 
 header img{
     padding-right: 2rem;
+}
+
+#HeaderText > *{
+    margin: 0.7rem;
 }
 
 footer .wrapper{

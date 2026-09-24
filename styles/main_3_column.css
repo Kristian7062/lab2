@@ -1,0 +1,27 @@
+:root{
+    --resolution: 1200px;
+}
+
+
+.wrapper{
+    width: var(--resolution);
+    margin: 0 auto;
+}
+
+Main .wrapper{
+    display: flex;
+    width: var(--resolution);
+}
+
+.column{
+    padding: 0 2rem 0 0;
+}
+
+#column1{
+    width: 110%;
+}
+
+#column3 h2{
+    Color: #a11206;
+    padding: 0 0 0 0;
+}
